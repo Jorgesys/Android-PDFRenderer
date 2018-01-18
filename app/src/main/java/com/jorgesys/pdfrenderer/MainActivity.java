@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        imageView = (ImageView)findViewById(R.id.imageView);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             //Check for permissions, Android 6.0+
